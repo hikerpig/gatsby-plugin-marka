@@ -1,13 +1,16 @@
 // ---------------- Marka ----------------------
 function markaInit() {
   if (!window.marka) return
-  marka.init({
-    container: '.post__content',
-  })
+  setTimeout(() => {
+    marka.init({
+      container: '.post__content',
+    })
+  }, options.markaInitDelay)
 }
 
 let options = {
   container: '.js-marka-container',
+  markaInitDelay: 0,
 }
 
 export const onInitialClientRender = function (_o, pluginOptions) {
