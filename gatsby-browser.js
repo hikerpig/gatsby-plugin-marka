@@ -3,7 +3,7 @@ function markaInit() {
   if (!window.marka) return
   setTimeout(() => {
     marka.init({
-      container: '.post__content',
+      container: options.container,
     })
   }, options.markaInitDelay)
 }
