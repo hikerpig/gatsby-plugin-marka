@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/hikerpig/gatsby-plugin-marka/compare/v1.1.1...v1.2.0) (2021-04-28)
+
+
+### Features
+
+* change cdn to jsdelivr ([4c98ca1](https://github.com/hikerpig/gatsby-plugin-marka/commit/4c98ca16e159e230461ed00bca7840d61b0bacc9))
+
 ### [1.1.1](https://github.com/hikerpig/gatsby-plugin-marka/compare/v1.1.0...v1.1.1) (2021-01-28)
 
 
